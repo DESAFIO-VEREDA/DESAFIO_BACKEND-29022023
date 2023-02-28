@@ -20,7 +20,7 @@ A API deve suportar conversão entre moedas fiduciárias e crypto . Exemplo: BRL
 
 Ref: Wikipedia [Site Institucional]. Disponível em: https://pt.wikipedia.org/wiki/Moeda. 
 
-Você edve usar como linguagem de programação para o desafio:
+Você deve usar como linguagem de programação para o desafio:
 
 JavaScript / Typescript (NodeJS)
 
