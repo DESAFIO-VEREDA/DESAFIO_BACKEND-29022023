@@ -16,7 +16,7 @@
     }).then(function (response) {
       const {data} = response;
       const dynamicKey = Object.keys(data)[0];  
-      const cotacao = data[dynamicKey].high;
+      const cotacao = data[dynamicKey].bid;
       const conversao = (Intl.NumberFormat('en-US', {style: 'currency', currency: 'USD'}).format(cotacao * ammount))
       res.status(200).json(conversao)
     }).catch((err) => {      
